@@ -16,5 +16,5 @@
   height: 500px;
   border: 1px solid #000;
   background-image: url("https:/picsum.photos/250");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
