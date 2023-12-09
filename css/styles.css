@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(../img/ozero_gory_les_152659_3840x2160.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  background-attachment: fixed;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 .container {
-  padding: 0;
-  margin: 0;
+  width: 100%;
+  max-width: 1100px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -12,10 +22,5 @@
 }
 
 .demo {
-  width: 500px;
-  height: 500px;
-  border: 1px solid #000;
-  background-image: url("https:/picsum.photos/300/200");
-  background-repeat: no-repeat;
- background-position: center center;
+ color: aliceblue;
 }
