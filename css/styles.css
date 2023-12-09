@@ -2,15 +2,19 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   background-image: url(../img/ozero_gory_les_152659_3840x2160.jpg);
   background-size: cover;
   background-position: right bottom;
   background-attachment: fixed;
-}
+} */
 img {
   max-width: 100%;
   height: auto;
+}
+
+.main-content {
+ flex-grow: 1;
 }
 .container {
   width: 100%;
@@ -21,6 +25,49 @@ img {
   margin-right: auto;
 }
 
-.demo {
- color: aliceblue;
+
+/* .location-img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/location.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
+
+.menu-img {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/menu.svg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.enter-link {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+.inter-img {
+  display: block;
+  width: 100%;
+  height: 16px;
+  background-image: url("..//img/enter.svg");
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat; */
+
+  .enter-link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+  }
+  .enter {
+    display: block;
+    width: 100%;
+    height: 16px;
+  }
